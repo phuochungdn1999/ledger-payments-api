@@ -1,5 +1,8 @@
 # Ledger Payments API
 
+[![CI/CD](https://github.com/phuochungdn1999/ledger-payments-api/actions/workflows/ci.yml/badge.svg)](https://github.com/phuochungdn1999/ledger-payments-api/actions/workflows/ci.yml)
+
+
 A double-entry-bookkeeping payments service in Go. Every transfer is recorded as balanced debit/credit postings inside a single Postgres transaction, so the books always balance — no money is ever invented or destroyed.
 
 ## Why this matters for fintech
