@@ -1,0 +1,28 @@
+# deps & build
+node_modules/
+.next/
+dist/
+build/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# go
+/bin/
+*.test
+*.out
+
+# env / data
+.env
+.env.local
+*.db
+data/
+
+# editor
+.DS_Store
+.idea/
+.vscode/
